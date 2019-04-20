@@ -44,6 +44,7 @@ a {
     width: 100%;
     padding: 0.6em;
     font-size: 1.3em;
+    border-radius: 10px; 
 }
 
 .form__required {
@@ -68,7 +69,8 @@ a {
     background: #326f10;
     color: #fff;
     border: none;
-    padding: 0.6em;
+    padding: 0.9em;
+    border-radius: 10px;
     font-size: 1.4em;
     float: right;
 }
