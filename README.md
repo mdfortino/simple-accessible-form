@@ -24,7 +24,8 @@ Create a simple HTML page which includes the following elements:
 Feel free to use any libraries or frameworks with which you have experience. Also feel free to add more complex form fields to highlight more difficult implementations. 
 
 # Future Improvements
-* Add passport authentication using JWT so that: 
+* Server-side validation
+* Add passport authentication using JWT for so that: 
 * When the user logs in, the backend creates a signed token and returns it in response
 * The client saves the token locally (typically in localStorage) and sends it back in every subsequent request that needs authentication
 * All requests needing authentication pass through a middleware that checks the provided token and allows the request only if the token is verified
