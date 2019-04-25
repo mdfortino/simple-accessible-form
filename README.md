@@ -29,7 +29,7 @@ I tested accessibility compliance with the following tools:
 * aXe Core 
 * Web Accessibility by Level Access: https://www.webaccessibility.com 
 
-#Deployment
+# Deployment
 * The login form has been deployed to the following site: http://accessible-login.surge.sh/ 
 
 # Future Improvements
@@ -39,7 +39,7 @@ I tested accessibility compliance with the following tools:
 * The client saves the token locally (typically in localStorage) and sends it back in every subsequent request that needs authentication
 * All requests needing authentication pass through a middleware that checks the provided token and allows the request only if the token is verified
 
-#Requested Feedback/Questions
-The site passed the wave accessibility and axe tests. However, when running a test using Level Access's Web Accessibility testing tool on the site containing the login form I created, I ran into the following issue, despite having the language set with the lang html tag and within the the script tag (script language="javascript"). See below screenshot. How would I go about "ensuring the language of a document is set" when the language of the document has been already set? 
+# Requested Feedback/Questions
+The site containing the login form I created passed the wave accessibility and axe tests. However, when running a test using Level Access's Web Accessibility testing tool, I ran into the following issue, despite having the language set with the lang html tag and within the the script tag (script language="javascript"). See below screenshot. How would I go about "ensuring the language of a document is set" when the language of the document has been already set? 
 
 ![Alt text](levelaccess.jpg "Level Access Test Results") 
