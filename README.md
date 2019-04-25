@@ -10,7 +10,7 @@ Create a simple HTML page which includes the following elements:
 
 # Client-side Validation
 * Add constraint information for the password field (Ex: Password must include one capital letter, one lower case letter, and at least one number.)
-* Check for the username “level” and password of “Access123”.
+* Check for the username “Level” and password of “Access123”.
 * If successful, display an alert informing the user that there was a success. Also feel free to redirect to a page with text that says “You have signed in!”
 * If unsuccessful, display an error notifying the user that the username/password combination was not recognized.
 
@@ -33,6 +33,7 @@ I tested accessibility compliance with the following tools:
 * The login form has been deployed to the following site: http://accessible-login.surge.sh/ 
 
 # Future Improvements
+* add route/content to: http://accessible-login.surge.sh/login to confirm login success 
 * Server-side validation
 * Add passport authentication using JWT (which I have done for previous projects using MEHN and MERN stacks) so that: 
 * When the user logs in, the backend creates a signed token and returns it in response
