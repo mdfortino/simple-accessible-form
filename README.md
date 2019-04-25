@@ -33,7 +33,8 @@ I tested accessibility compliance with the following tools:
 * The login form has been deployed to the following site: http://accessible-login.surge.sh/ 
 
 # Future Improvements
-* add route/content to: http://accessible-login.surge.sh/login to confirm login success 
+* Set up http route/content on backend to confirm login success 
+* refactor code 
 * Server-side validation
 * Add passport authentication using JWT (which I have done for previous projects using MEHN and MERN stacks) so that: 
 * When the user logs in, the backend creates a signed token and returns it in response
